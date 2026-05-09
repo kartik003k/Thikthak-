@@ -1,0 +1,6 @@
+{
+  "name": "ThikThak",
+  "description": "A vibrant short-form video platform for the global community (except Pakistan), featuring a unique brutalist-inspired interface and localized content.",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": ["Short-form video", "Social interaction", "Localized feed"]
+}

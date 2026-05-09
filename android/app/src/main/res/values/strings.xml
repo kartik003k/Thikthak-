@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ThikThak</string>
+    <string name="title_activity_main">ThikThak</string>
+    <string name="package_name">com.thikthak.app</string>
+    <string name="custom_url_scheme">com.thikthak.app</string>
+</resources>
