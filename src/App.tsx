@@ -10,7 +10,7 @@ import Header from './components/Header';
 import Navigation, { TabType } from './components/Navigation';
 import ExploreView from './components/ExploreView';
 import UploadView from './components/UploadView';
-import InboxView from './components/InboxView';
+import DownloadView from './components/DownloadView';
 import ProfileView from './components/ProfileView';
 
 export default function App() {
@@ -24,8 +24,8 @@ export default function App() {
         return <ExploreView />;
       case 'upload':
         return <UploadView />;
-      case 'inbox':
-        return <InboxView />;
+      case 'download':
+        return <DownloadView />;
       case 'profile':
         return <ProfileView />;
       default:

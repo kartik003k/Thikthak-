@@ -1,6 +1,6 @@
-import { Home, Compass, Plus, MessageCircle, User } from 'lucide-react';
+import { Home, Compass, Plus, Download, User } from 'lucide-react';
 
-export type TabType = 'home' | 'explore' | 'upload' | 'inbox' | 'profile';
+export type TabType = 'home' | 'explore' | 'upload' | 'download' | 'profile';
 
 interface NavigationProps {
   activeTab: TabType;
@@ -12,7 +12,7 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
     { type: 'home', icon: Home, label: 'Home' },
     { type: 'explore', icon: Compass, label: 'Explore' },
     { type: 'upload', icon: Plus, label: 'Post' },
-    { type: 'inbox', icon: MessageCircle, label: 'Inbox' },
+    { type: 'download', icon: Download, label: 'Get App' },
     { type: 'profile', icon: User, label: 'Profile' },
   ];
 
